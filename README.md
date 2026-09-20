@@ -40,7 +40,8 @@ node node/quickstart.cjs
 
 ## Going further
 
-- **All markets and sports** (spreads, totals, player props, futures, 26 sports): see [pricing tiers](https://theoddsapi.com/#pricing). Professional is $29/mo, Business is $99/mo.
+- **Official SDKs**: prefer these over raw HTTP for a new project. Python: [theoddsapi-python](https://github.com/theoddsapi/theoddsapi-python) (`pip install theoddsapi-client`). JavaScript: [theoddsapi-js](https://github.com/theoddsapi/theoddsapi-js) (`npm install @theoddsapi/client`). Both wrap every endpoint below as one method call with built-in retries and a single error type.
+- **All markets and sports** (spreads, totals, player props, 25+ sports): see [pricing tiers](https://theoddsapi.com/#pricing). Professional is $29/mo, Business is $99/mo.
 - **Edge detection**: the Business tier includes `GET /edges/` with Pinnacle-anchored sharp-line comparison. How it works: [Pinnacle sharp lines guide](https://theoddsapi.com/guides/sharp-lines-pinnacle).
 - **Historical odds for backtesting**: `GET /historical/odds` on Business. [Backtesting guide](https://theoddsapi.com/guides/historical-odds-backtesting).
 - **Use it inside Claude with no code**: TheOddsAPI has an official MCP connector. Setup: [theoddsapi.com/connector.html](https://theoddsapi.com/connector.html).
@@ -55,4 +56,4 @@ node node/quickstart.cjs
 
 ## License
 
-MIT. Use these snippets in anything.
+MIT. Use these snippets in anything. Independently developed against the published TheOddsAPI OpenAPI specification.
