@@ -1,6 +1,6 @@
 // TheOddsAPI quickstart (ESM, works in Node 18+, Deno, Bun).
 //
-// Get a free key at https://theoddsapi.com/start.html then:
+// Get a free key at https://bettingdataapi.com/start.html then:
 //   export ODDS_API_KEY=your_key_here
 //   node quickstart.js
 //
@@ -8,7 +8,7 @@
 // each entry is one bookmaker+market pair:
 //   { book: "draftkings", market: "h2h", outcomes: [{ name, price }] }
 
-const BASE_URL = "https://api.theoddsapi.com";
+const BASE_URL = "https://api.bettingdataapi.com";
 const API_KEY = process.env.ODDS_API_KEY;
 
 if (!API_KEY) {

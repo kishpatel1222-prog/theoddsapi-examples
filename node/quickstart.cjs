@@ -1,10 +1,10 @@
 // TheOddsAPI quickstart (CommonJS, Node 18+, zero dependencies).
 //
-// Get a free key at https://theoddsapi.com/start.html then:
+// Get a free key at https://bettingdataapi.com/start.html then:
 //   export ODDS_API_KEY=your_key_here
 //   node quickstart.cjs
 
-const BASE_URL = "https://api.theoddsapi.com";
+const BASE_URL = "https://api.bettingdataapi.com";
 const API_KEY = process.env.ODDS_API_KEY;
 
 if (!API_KEY) {

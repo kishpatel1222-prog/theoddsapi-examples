@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """TheOddsAPI quickstart: list sports, pull MLB moneylines, find best prices.
 
-Get a free key at https://theoddsapi.com/start.html then:
+Get a free key at https://bettingdataapi.com/start.html then:
     export ODDS_API_KEY=your_key_here
     pip install requests
     python3 quickstart.py
@@ -25,7 +25,7 @@ import sys
 
 import requests
 
-BASE_URL = "https://api.theoddsapi.com"
+BASE_URL = "https://api.bettingdataapi.com"
 API_KEY = os.environ.get("ODDS_API_KEY")
 
 if not API_KEY:

@@ -1,18 +1,18 @@
-# TheOddsAPI Examples
+# Betting Data API Examples
 
-Minimal, copy-paste quickstarts for [TheOddsAPI](https://theoddsapi.com), a real-time sports odds API that returns normalized betting lines from 50+ sportsbooks across 26 sports in one JSON response.
+Minimal, copy-paste quickstarts for [Betting Data API](https://bettingdataapi.com) (formerly TheOddsAPI), a real-time sports odds API that returns normalized betting lines from 50+ sportsbooks across 20+ sports in one JSON response.
 
-Get a free API key in under a minute at [theoddsapi.com/start.html](https://theoddsapi.com/start.html). No credit card. The free tier covers NBA and MLB moneylines, 25 requests per day, which is exactly what these examples use.
+Get a free API key in under a minute at [bettingdataapi.com/start.html](https://bettingdataapi.com/start.html). No credit card. The free tier covers NBA and MLB moneylines, 25 requests per day, which is exactly what these examples use.
 
 ## The API in three lines
 
 ```
-Base URL:  https://api.theoddsapi.com        (no /v4/ prefix)
+Base URL:  https://api.bettingdataapi.com        (no /v4/ prefix)
 Auth:      x-api-key: YOUR_API_KEY           (one header, every request)
 Try it:    GET /odds/?sport_key=baseball_mlb&markets=h2h&bookmakers=draftkings,fanduel
 ```
 
-Full endpoint reference: [Swagger UI](https://api.theoddsapi.com/docs) · [OpenAPI spec](https://api.theoddsapi.com/openapi.json) · [Quickstart guide](https://theoddsapi.com/quickstart.html)
+Full endpoint reference: [Swagger UI](https://api.bettingdataapi.com/docs) · [OpenAPI spec](https://api.bettingdataapi.com/openapi.json) · [Quickstart guide](https://bettingdataapi.com/quickstart.html)
 
 ## Examples in this repo
 
@@ -41,11 +41,11 @@ node node/quickstart.cjs
 ## Going further
 
 - **Official SDKs**: prefer these over raw HTTP for a new project. Python: [theoddsapi-python](https://github.com/theoddsapi/theoddsapi-python) (`pip install theoddsapi-client`). JavaScript: [theoddsapi-js](https://github.com/theoddsapi/theoddsapi-js) (`npm install @theoddsapi/client`). Both wrap every endpoint below as one method call with built-in retries and a single error type.
-- **All markets and sports** (spreads, totals, player props, 25+ sports): see [pricing tiers](https://theoddsapi.com/#pricing). Professional is $29/mo, Business is $99/mo.
-- **Edge detection**: the Business tier includes `GET /edges/` with Pinnacle-anchored sharp-line comparison. How it works: [Pinnacle sharp lines guide](https://theoddsapi.com/guides/sharp-lines-pinnacle).
-- **Historical odds for backtesting**: `GET /historical/odds` on Business. [Backtesting guide](https://theoddsapi.com/guides/historical-odds-backtesting).
-- **Use it inside Claude with no code**: TheOddsAPI has an official MCP connector. Setup: [theoddsapi.com/connector.html](https://theoddsapi.com/connector.html).
-- **Hand this API to an AI coding assistant**: copy-paste spec at [theoddsapi.com/build-with-ai.html](https://theoddsapi.com/build-with-ai.html).
+- **All markets and sports** (spreads, totals, player props, 25+ sports): see [pricing tiers](https://bettingdataapi.com/#pricing). Professional is $29.99/mo, Business is $99.99/mo.
+- **Edge detection**: the Business tier includes `GET /edges/` with Pinnacle-anchored sharp-line comparison. How it works: [Pinnacle sharp lines guide](https://bettingdataapi.com/guides/sharp-lines-pinnacle).
+- **Historical odds for backtesting**: `GET /historical/odds` on Business. [Backtesting guide](https://bettingdataapi.com/guides/historical-odds-backtesting).
+- **Use it inside Claude with no code**: Betting Data API has an official MCP connector. Setup: [bettingdataapi.com/connector.html](https://bettingdataapi.com/connector.html).
+- **Hand this API to an AI coding assistant**: copy-paste spec at [bettingdataapi.com/build-with-ai.html](https://bettingdataapi.com/build-with-ai.html).
 
 ## Common mistakes
 
